@@ -1,5 +1,5 @@
 function ex02_5 (a,b,c) {
- var d = Math.max(a,b);
- var e = Math.max(b,c);
- return multiply(multiply(Math.max(d,e),Math.max(d,e)),Math.PI);
+ var a = Math.max(a,b);
+ var b = Math.max(b,c);
+ return multiply(multiply(Math.max(a,b),Math.max(a,b)),Math.PI);
 }
